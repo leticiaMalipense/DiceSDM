@@ -4,10 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="br.edu.ifsp.scl.sdm.MainActivity">
 
-    <item
-        android:id="@+id/action_settings"
+    <!--<item
+        android:id="@+id/dice_settings"
         android:orderInCategory="100"
         android:title="@string/jogar_dados"
+        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/bingo_settings"
+        android:orderInCategory="100"
+        android:title="@string/bingo"
         app:showAsAction="never" />
 
 </menu>

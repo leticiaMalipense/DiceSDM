@@ -6,8 +6,13 @@
     <string name="entre_com_numeros">Entre com o número de faces</string>
     <string name="selecione_qtd_dados">Selecione o número de dados</string>
     <string name="jogar_dados">Jogar dados</string>
+    <string name="bingo">Bingo</string>
     <string-array name="numero_dados">
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string name="title_activity_bingo">BingoActivity</string>
+    <string name="qtd_numeros">Entre com a quantidade de números a ser sorteada (limite 999 números)</string>
+    <string name="sortear">Sortear Numeros</string>
+    <string name="limpar">Recomeçar sorteio</string>
 </resources>

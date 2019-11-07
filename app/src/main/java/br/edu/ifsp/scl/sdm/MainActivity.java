@@ -29,8 +29,17 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        Intent i = new Intent(getApplicationContext(), DiceActivity.class);
-        startActivityForResult(i, 1);
-        return true;
+        int id = item.getItemId();
+ /*       if (id == R.id.dice_settings) {
+            Intent i = new Intent(getApplicationContext(), DiceActivity.class);
+            startActivityForResult(i, 1);
+            return true;
+        }*/
+        if (id == R.id.bingo_settings) {
+            Intent i = new Intent(getApplicationContext(), BingoActivity.class);
+            startActivityForResult(i, 1);
+            return true;
+        }
+        return false;
     }
 }
